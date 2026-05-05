@@ -2,13 +2,13 @@
   "name": "AFK Bot",
   "bot-account": {
     "username": "IslerSMPBot",
-    "password": "chalo178",
+    "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "islersmp.aternos.me",
     "port": 14701,
-    "version": "1.21.1",
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -28,7 +28,7 @@
     },
     "chat-messages": {
       "enabled": false,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
         "I'm a regular player",
@@ -37,7 +37,7 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
@@ -74,7 +74,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discord.com/channels/@Speedster69",
     "events": {
       "connect": true,
       "disconnect": true,
