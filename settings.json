@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "islersmp.aternos.me",
+    "ip": "islersmpfixed.aternos.me",
     "port": 14701,
     "version": "1.21.11",
     "try-creative": false
